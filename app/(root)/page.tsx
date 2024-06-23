@@ -1,28 +1,12 @@
+import { socialMedia } from '@/assets/data';
 import ButtonSocialMedia from "@/components/ui/button-social-media";
 import Image from "next/image";
-import { RiGithubFill, RiLinkedinBoxFill, RiMailAddLine } from "react-icons/ri";
+
 
 export default function Home() {
 
 
-    const socialMedia = [
-        {
-            socialMedia: 'LinkedIn',
-            icon: RiLinkedinBoxFill,
-            href: 'https://www.linkedin.com/in/cristian-sigel-3b9573211/'
-        },
-        {
-            socialMedia: 'GitHub',
-            icon: RiGithubFill,
-            href: 'https://github.com/zotel1'
-        },
-        {
-            socialMedia: 'Gmail',
-            icon: RiMailAddLine,
-            href: 'cristiansigelwebdevelopment@gmail.com'
-
-        }
-    ];
+    
 
   return (
   <div className="space-y-10">
