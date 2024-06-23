@@ -13,7 +13,7 @@ const MainLauout = ({children} : {children: ReactNode }) => {
         <Sidebar showMenu={showMenu}/>
         <header>
             <button type="button">
-                <RiMenu2Line />
+                <RiMenu2Line onClick={() => setShowMenu(true)}/>
             </button>
         </header>
         {children}
