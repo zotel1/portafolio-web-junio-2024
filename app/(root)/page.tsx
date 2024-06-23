@@ -14,6 +14,9 @@ export default function Home() {
         <Image
         src={information.photo}
         alt='Imagen'
+        layout='responsive'
+        width={200}
+        height={200}
         className="object-cover rounded-xl grayscale"
         />
     </div>

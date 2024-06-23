@@ -3,7 +3,7 @@ import { RiGithubFill, RiLinkedinBoxFill, RiMailAddLine } from "react-icons/ri";
 export const information = {
     about: 'Soy un desarrollador web con un año y medio de experiencia',
 
-    photo: "/perfil-portafolio-CristianSigel.jpeg",
+    photo: '/perfil-portafolio-CristianSigel.jpeg',
 
 socialMedia: [
     {
