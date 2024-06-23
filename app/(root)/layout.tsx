@@ -11,11 +11,9 @@ const MainLauout = ({children} : {children: ReactNode }) => {
     return (
     <div>
         <Sidebar showMenu={showMenu} onClose={() => setShowMenu(false)}/>
-        <header>
-            <button type="button">
-                <RiMenu2Line onClick={() => setShowMenu(true)}/>
+            <button type="button" className="lg:hidden">
+                <RiMenu2Line onClick={() => setShowMenu(true)} size={20}/>
             </button>
-        </header>
         {children}
         </div>
     );
