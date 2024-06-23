@@ -1,3 +1,4 @@
+'use client';
 import { Children, ReactNode } from "react";
 import Sidebar from "@/components/shared/sidebar";
 
