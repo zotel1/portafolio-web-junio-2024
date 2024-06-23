@@ -19,7 +19,7 @@ socialMedia: [
     {
         socialMedia: 'Gmail',
         icon: RiMailAddLine,
-        href: 'cristiansigelwebdevelopment@gmail.com'
+        href: 'https://mail.google.com/mail/u/2/#inbox?compose=CllgCJTGmjsVQMbFQDhHbzDjbWnqWdZwGXQnwTNkSfCFsflmPRjTnGpPhmsjCFtvqFjSZchjhZg'
 
     }
 ],
