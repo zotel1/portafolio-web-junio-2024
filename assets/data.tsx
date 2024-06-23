@@ -1,6 +1,11 @@
 import { RiGithubFill, RiLinkedinBoxFill, RiMailAddLine } from "react-icons/ri";
 
-export const socialMedia = [
+export const information = {
+    about: 'Soy un desarrollador web con un año y medio de experiencia',
+
+    photo: "/perfil-portafolio-CristianSigel.jpeg",
+
+socialMedia: [
     {
         socialMedia: 'LinkedIn',
         icon: RiLinkedinBoxFill,
@@ -17,5 +22,5 @@ export const socialMedia = [
         href: 'cristiansigelwebdevelopment@gmail.com'
 
     }
-];
-
+],
+}

@@ -1,4 +1,4 @@
-import { socialMedia } from '@/assets/data';
+import { information, socialMedia } from '@/assets/data';
 import ButtonSocialMedia from "@/components/ui/button-social-media";
 import Image from "next/image";
 
@@ -12,10 +12,8 @@ export default function Home() {
   <div className="space-y-10">
     <div className="relative w-24 h-24">
         <Image
-        src="/perfil-portafolio-CristianSigel.jpeg"
+        src={information.photo}
         alt='Imagen'
-        fill
-        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
         className="object-cover rounded-xl grayscale"
         />
     </div>
@@ -28,7 +26,7 @@ export default function Home() {
     </p>
     </div>
     <div>
-        {socialMedia.map((social) => (
+        {information.socialMedia.map((social) => (
             <ButtonSocialMedia 
             key={social.href}
             href={social.href}
