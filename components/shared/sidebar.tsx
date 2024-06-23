@@ -4,7 +4,7 @@ import MainMenu from "@/components/shared/main-menu";
 
 const Sidebar = () => {
     return ( <aside className="fixed bg-dark w-[13vw] h-full border-r border-gray-500/30">
-        <section className="px-5 py-8 border-b border-gray-500/30">
+        <section className="p-8 border-b border-gray-500/30">
             <Link 
             href='/' 
             className="text-xl text-white hover:text-primary transition-colors duration-300">
