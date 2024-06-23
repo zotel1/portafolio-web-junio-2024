@@ -1,17 +1,19 @@
 'use client';
 
-import { useState } from "react";
+
 import Link from "next/link";
 
 import MainMenu from "@/components/shared/main-menu";
 
+interface SidebarProps{
+    showMenu: boolean;
+}
 
-const Sidebar = () => {
 
-    const [showMenu, setShowMenu] = useState(false);
+const Sidebar = ({showMenu }: SidebarProps) => {
 
     return ( 
-    <aside className="fixed left-0 top-0 bg-dark w-[70vw] md:w-[40vw] lg:w[13vw] w-[13vw] h-full border-r border-gray-500/30">
+    <aside className="fixed left-0 top-0 bg-dark w-[70vw] md:w-[30vw] lg:w[13vw] h-full border-r border-gray-500/30">
         <section className="p-8 border-b border-gray-500/30">
             <Link 
             href='/' 
