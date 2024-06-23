@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
-import Sidebar from "@/components/shared/sidebar";
+
 import { cn } from "@/libs/utils";
 
 
@@ -21,8 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
           <body className={cn('bg-dark text-gray-300', font.className )}>
-        <Sidebar />
-        <main className="pl-[13vw]">{children}</main>
+        
+        <main className="pl-[13vw] container mx-auto py-5 lg:py-8">
+            {children}
+            </main>
         </body>
     </html>
   );
