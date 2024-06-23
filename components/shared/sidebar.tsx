@@ -8,14 +8,16 @@ import { cn } from "@/libs/utils";
 
 interface SidebarProps{
     showMenu: boolean;
+    onClose: () => void;
 }
 
 
-const Sidebar = ({showMenu }: SidebarProps) => {
+const Sidebar = ({showMenu, onClose }: SidebarProps) => {
 
     return ( 
+        <>
     <aside className={cn("fixed top-0 bg-dark w-[70vw] md:w-[30vw] lg:w[13vw] h-full border-r border-gray-500/30", showMenu ? 'left-0' : '-left-full')}>
-        <section className="p-8 border-b border-gray-500/30 transition-all duration-300 ease-in-out">
+        <section className="p-8 border-b border-gray-500/30 transition-all duration-300 ease-in-out z-50">
             <Link 
             href='/' 
             className="text-xl text-white hover:text-primary transition-colors duration-300">
@@ -26,7 +28,16 @@ const Sidebar = ({showMenu }: SidebarProps) => {
         <section>
             <MainMenu />
         </section>
-    </aside>);
+    </aside>
+            <div
+            onClick={onClose}
+            className={cn(
+                "fixed bg-black-20 z-40 left-0 top-0 w-full h-full", 
+                showMenu ? 'block' : 'hidden'
+                )}
+                />
+        </>
+    );
 }
 
 export default Sidebar;
