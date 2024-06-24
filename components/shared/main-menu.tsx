@@ -18,7 +18,7 @@ const MainMenu = () => {
             href: '/proyectos'
         },
         {
-            label: 'Educación',
+            label: 'Estudios',
             icon: RiShapeLine,
             href: '/educacion'
         },
