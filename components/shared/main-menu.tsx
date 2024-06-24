@@ -43,7 +43,7 @@ const pathname = usePathname();
             key={route.href} 
             href={route.href} 
             className={cn(
-                'flex items-center gap-4 text-gray-500 py-5 px-8 border-b border-gray-500/30 hover:bg-gray-500/5 hover:text-white transition-colors duration-300',
+                'flex items-center gap-4 text-gray-500 py-5 px-8 border-b border-gray-500/30 hover:bg-gray-500/10 hover:text-white transition-colors duration-300',
                 pathname === route.href && 'text-white'
                 )}>
             <route.icon size={18}/>

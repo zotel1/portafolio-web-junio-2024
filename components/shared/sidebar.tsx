@@ -1,6 +1,5 @@
 'use client';
 
-
 import Link from "next/link";
 
 import MainMenu from "@/components/shared/main-menu";
@@ -16,11 +15,16 @@ const Sidebar = ({showMenu, onClose }: SidebarProps) => {
 
     return ( 
         <>
-    <aside className={cn("fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w[13vw] h-full border-r border-gray-500/30", showMenu ? 'left-0' : '-left-full')}>
-        <section className="p-8 border-b border-gray-500/30 transition-all duration-300 ease-in-out z-50">
+        <aside 
+        className={cn("fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w[13vw] h-full border-r border-gray-500/30", 
+        showMenu ? 'left-0' : '-left-full'
+        )}
+        >
+        <section className="p-8 border-b border-gray-500/30">
             <Link 
             href='/' 
-            className="text-xl text-white hover:text-primary transition-colors duration-300">
+            className="text-xl text-white hover:text-primary transition-colors duration-300"
+            >
                 Cristian Sigel
                 </Link>
             <h3 className="text-gray-500 font-light">Web development</h3>

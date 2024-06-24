@@ -5,15 +5,14 @@ import Image from "next/image";
 
 export const HeroSection = () => {
     return (
-        <section id='home'>
+        <section id='home' className='border-b border-gray-500/30 py-10'>
             <div className="space-y-10">
                 <div className="relative w-24 h-24">
                     <Image
                         src={information.photo}
                         alt='Imagen'
-                        layout='responsive'
-                        width={200}
-                        height={200}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         className="object-cover rounded-xl grayscale"
                     />
                 </div>
