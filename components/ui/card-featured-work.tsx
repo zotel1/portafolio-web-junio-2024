@@ -26,11 +26,9 @@ const CardFeaturedWork = ({
                 />
             </div>
             <h5 className='text-gray-500 uppercase tracking-widest font-medium'>
-                Landing Page
                 {category}
                 </h5>
             <h3 className='text-xl text-white group-hover:text-primary transition-colors duration-300'>
-                Landing Page Digital Nao
                 {title}
                 </h3>
         </Link>
