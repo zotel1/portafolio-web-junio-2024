@@ -1,11 +1,13 @@
 import { information } from '@/assets/data';
 import ButtonSocialMedia from "@/components/ui/button-social-media";
+import Container from '@/components/ui/container';
 import Image from "next/image";
 
 
 export const HeroSection = () => {
     return (
         <section id='home' className='border-b border-gray-500/30 py-10'>
+            <Container>
             <div className="space-y-10">
                 <div className="relative w-24 h-24">
                     <Image
@@ -25,7 +27,7 @@ export const HeroSection = () => {
                         Desarrollador web desde hace un año y medio
                     </p>
                 </div>
-                <div>
+                <div className='flex items-center gap-4'>
                     {information.socialMedia.map((social) => (
                         <ButtonSocialMedia
                             key={social.href}
@@ -35,6 +37,7 @@ export const HeroSection = () => {
                     ))}
                 </div>
             </div>
+            </Container>
         </section>
     )
 }

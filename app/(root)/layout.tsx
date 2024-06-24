@@ -4,7 +4,7 @@ import { RiMenu2Line } from "react-icons/ri";
 
 import Sidebar from "@/components/shared/sidebar";
 
-const MainLauout = ({children} : {children: ReactNode }) => {
+const MainLayout = ({children} : {children: ReactNode }) => {
 
     const [showMenu, setShowMenu] = useState(false);
 
@@ -19,4 +19,4 @@ const MainLauout = ({children} : {children: ReactNode }) => {
     );
 }
 
-export default MainLauout;
+export default MainLayout;
