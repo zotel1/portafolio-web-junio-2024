@@ -3,6 +3,7 @@ import { useState, ReactNode } from "react";
 import { RiMenu2Line } from "react-icons/ri";
 
 import Sidebar from "@/components/shared/sidebar";
+import ButtonIcon from "@/components/ui/button-icon";
 
 const MainLayout = ({children} : {children: ReactNode }) => {
 
@@ -11,9 +12,11 @@ const MainLayout = ({children} : {children: ReactNode }) => {
     return (
     <div>
         <Sidebar showMenu={showMenu} onClose={() => setShowMenu(false)}/>
-            <button type="button" className="lg:hidden">
-                <RiMenu2Line onClick={() => setShowMenu(true)} size={20}/>
-            </button>
+            <ButtonIcon
+            icon={RiMenu2Line} 
+            onClick={() => setShowMenu(true)} 
+            className='lg:hidden fixed right-0 bottom-0 z-30 bg-primary p-4 rounded-tl-lg' />
+            
         {children}
         </div>
     );

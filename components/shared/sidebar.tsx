@@ -16,7 +16,7 @@ const Sidebar = ({showMenu, onClose }: SidebarProps) => {
     return ( 
         <>
         <aside 
-        className={cn("fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w[13vw] h-full border-r border-gray-500/30", 
+        className={cn("fixed top-0 lg:left-0 bg-dark w-[70vw] md:w-[30vw] lg:w-[20vw] xl:w-[13vw] h-full border-r border-gray-500/30 transition-all duration-300 ease-in-out <-50", 
         showMenu ? 'left-0' : '-left-full'
         )}
         >

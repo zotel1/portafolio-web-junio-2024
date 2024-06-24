@@ -11,7 +11,7 @@ const FeaturedWorkSection = () => {
 const router = useRouter();
 
     return (
-    <section id="featuredWork">
+    <section id="featuredWork" className='border-b  border-gray-500/30 py-10'>
         <Container>
         <Title title="Featured Work"/>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10'>
