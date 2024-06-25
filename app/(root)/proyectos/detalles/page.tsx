@@ -1,5 +1,6 @@
 import SectionHeader from "./sections/section-header";
 import SectionMyRole from "./sections/section-my-role";
+import SectionTheProject from "./sections/section-the-project";
 
 
 export const metadata = {
@@ -12,6 +13,7 @@ const WorkDetails = () => {
     <main>
         <SectionHeader />
         <SectionMyRole />
+        <SectionTheProject />
     </main>
 )};
 export default WorkDetails;
