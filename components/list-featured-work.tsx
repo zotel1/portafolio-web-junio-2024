@@ -1,0 +1,26 @@
+import CardFeaturedWork from "./ui/card-featured-work"
+
+const ListFeaturedWork = () => {
+    return (<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10'>
+        <CardFeaturedWork
+        href='https://zotel1.github.io/landing-page-v1.1/'
+        image='/landing-page.jpeg'
+        category='Landing Page'
+        title='Landing Page Digital Nao' />
+        <CardFeaturedWork 
+        href='https://peppy-alpaca-377053.netlify.app/'
+        image='/club-empanadas.png'
+        category='Single Page'
+        title='Club de empanadas' />
+        <CardFeaturedWork 
+        href='/proyectos/detalles'
+        image='/conversor-java.png'
+            category='API Rest Full'
+            title='Conversor de monedas'
+        />
+    </div>
+
+    )
+};
+
+export default ListFeaturedWork;
