@@ -1,4 +1,4 @@
-import { information } from '@/assets/data';
+import { Information } from '@/assets/data';
 import ButtonSocialMedia from "@/components/ui/button-social-media";
 import Container from '@/components/ui/container';
 import Image from "next/image";
@@ -11,7 +11,7 @@ export const HeroSection = () => {
             <div className="space-y-10">
                 <div className="relative w-24 h-24">
                     <Image
-                        src={information.photo}
+                        src={Information.photo}
                         alt='Imagen'
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -28,7 +28,7 @@ export const HeroSection = () => {
                     </p>
                 </div>
                 <div className='flex items-center gap-4'>
-                    {information.socialMedia.map((social) => (
+                    {Information.socialMedia.map((social) => (
                         <ButtonSocialMedia
                             key={social.href}
                             href={social.href}

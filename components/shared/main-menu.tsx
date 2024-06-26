@@ -19,24 +19,24 @@ const MainMenu = () => {
             href: '/',
         },
         {
-            label: 'Proyectos',
+            label: 'Works',
             icon: RiBriefcase2Line,
             href: '/work'
         },
         {
             label: 'Study',
             icon: RiShapeLine,
-            href: '/estudios'
+            href: '/study'
         },
         {
-            label: 'Sobre mí',
+            label: 'About',
             icon: RiUserLine,
             href: '/about'
         },
         {
-        label: 'Contactos',
+        label: 'Contacts',
         icon: RiMailLine,
-        href: '/contacto'
+        href: '/contacts'
         }
     ];
 
