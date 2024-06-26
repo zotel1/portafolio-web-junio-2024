@@ -2,7 +2,13 @@ import { cn } from "@/libs/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { RiHome3Line, RiBriefcase2Line, RiShapeLine, RiUserLine, RiMailLine } from "react-icons/ri";
+import { 
+    RiHome3Line, 
+    RiBriefcase2Line, 
+    RiShapeLine, 
+    RiUserLine, 
+    RiMailLine 
+} from "react-icons/ri";
 
 const MainMenu = () => {
 
@@ -15,12 +21,12 @@ const MainMenu = () => {
         {
             label: 'Proyectos',
             icon: RiBriefcase2Line,
-            href: '/proyectos'
+            href: '/work'
         },
         {
-            label: 'Estudios',
+            label: 'Study',
             icon: RiShapeLine,
-            href: '/educacion'
+            href: '/estudios'
         },
         {
             label: 'Sobre mí',
