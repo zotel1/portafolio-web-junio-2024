@@ -13,9 +13,13 @@ const SectionHeader = () => {
         <p>
             Este es un programa en Java que permite convertir valores entre diferentes tipos de monedas.
         </p>
-        <div className='flex items-center justify-between'>
-            <Button type='button' label='Ver aplicación' className='w-auto' onClick={() => {}} />
-                <ul className='space-y-3'>
+        <div className='flex flex-col lg:flex-row items-center justify-between mt-5 gap-5'>
+            <Button 
+            type='button' 
+            label='View Live App' 
+            className='w-auto' 
+            onClick={() => {}} />
+                <ul className='space-y-3 mb-10 ml-6'>
                     <li className='relative before:absolute before:w-2 before:h-2 before:border before:border-primary before:-left-6 before:top-1/2 before:-translate-y-1/2'>Industria: Desarrollo web</li>
                     <li className='relative before:absolute before:w-2 before:h-2 before:border before:border-primary before:-left-6 before:top-1/2 before:-translate-y-1/2'>Tiempo: 2 semanas</li>
                     <li className='relative before:absolute before:w-2 before:h-2 before:border before:border-primary before:-left-6 before:top-1/2 before:-translate-y-1/2'>API Rest</li>

@@ -4,7 +4,7 @@ import { Information } from "@/assets/data";
 import  Image  from "next/image";
 
 const AboutPage = () => {
-    return (<main className='border-b border-gray-500/30 pb-10'>
+    return (<main className='border-b border-gray-500/30 pb-10 '>
         <Container >
             <Title title='About Cristian Sigel'/>
             <div className='relative w-[600px] h-[400px] rounded-xl'>
@@ -13,7 +13,7 @@ const AboutPage = () => {
                     alt='Imagen'
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover rounded-xl mt-10 space-y-10"
+                    className="object-cover rounded-xl mt-10 space-y-10 "
                 />
                 </div>
                 <div className='mt-10 space-y-10'>

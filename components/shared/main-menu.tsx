@@ -34,9 +34,9 @@ const MainMenu = () => {
             href: '/about'
         },
         {
-        label: 'Contacts',
+        label: 'Contact',
         icon: RiMailLine,
-        href: '/contacts'
+        href: '/contact'
         }
     ];
 

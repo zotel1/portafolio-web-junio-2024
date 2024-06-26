@@ -32,7 +32,7 @@ const router = useRouter();
                         image='/programacion-orientada-a-objetos-python.png'
                         title='PYTHON POO' description='Curso de programación orientada a objetos con Python' />
                 </div>
-                <Button label='Ver todos los certicicados' onClick={() => router.push('/estudios')} />
+                <Button label='Ver todos los certicicados' onClick={() => router.push('/study')} />
             </Container>
 
         </section>
