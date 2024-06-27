@@ -24,10 +24,10 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             description='Curso de programacion orientada a objetos con Python de IT Master Academy.'
             title='Programador Python' />
         <CardCertificates
-            href='https://platzi.com/p/zotelsigel/curso/7992-github-actions/diploma/detalle/'
-            image='/curso-github-actions.png'
-            description="Curso DevOps sobre GitHub Actions de Platzi."
-            title='GitHub Actions' />
+            href='https://app.aluracursos.com/certificate/2427492e-7282-47f8-b129-637e7b662b52?lang'
+            image='/git-github.png'
+            description="Curso de Git y GitHub."
+            title='Git-GitHub' />
         <CardCertificates
             href='https://app.aluracursos.com/certificate/1d6b2ec9-9f5d-414c-b55b-da840025fcc5?lang'
             image='/PERSISTENCIA-DE-DATOS-SPRING.png'
