@@ -5,7 +5,7 @@ import Title from "@/components/ui/title";
 const PageWork = () => {
     return (
     <Container>
-        <Title title='Proyectos'/>
+        <Title title='Work'/>
         <ListFeaturedWork />
     </Container>
     )};

@@ -3,12 +3,15 @@ import Subtitle from "@/components/ui/subtitle";
 import Image from "next/image";
 
 const SectionTheProject = () => {
-    return (<section id='sectionHeader' className='border-b border-gray-500/30 py-10'>
+    return (
+    <section 
+    id='sectionTheProject' 
+    className='border-b border-gray-500/30 py-10'>
         <Container>
-            <div className='flex flex-col sm:flex-row sm:items-start sm:justify-between'>
-                <Subtitle subtitle='The Project' />
+            <div className='flex flex-col lg:flex-row lg:items-start lg:justify-between mb-10 gap-5'>
+                <Subtitle subtitle='The Project' className='my-0' />
                 <ul className='space-y-8'>
-                    <li className='max-w-4xl'>
+                    <li className='max-w-2xl'>
                         <h4 className='text-xl text-white font-medium mb-2'>
                             Challenge
                         </h4>
@@ -20,17 +23,17 @@ const SectionTheProject = () => {
                             overwhelmed by choices.
                         </p>
                     </li>
-                    <li className='max-w-3xl'>
+                    <li className='max-w-2xl'>
                         <h4 className='text-xl text-white font-medium mb-2'>
                             Outcome
                         </h4>
-                        <p className='text-sm text-gray-400 '>
+                        <p className='text-sm text-gray-500 '>
                             The collaborative efforts  
                         </p>
                     </li>
                 </ul>
             </div>
-            <div className='flex items-center justify-between gap-10'>
+            <div className='flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10'>
             <div className='relative w-full h-96 sm:h-[500px] lg:h-[700px] rounded-xl'>
                 <Image
                     src='/conversor-java.png'

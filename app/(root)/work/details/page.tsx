@@ -4,8 +4,8 @@ import SectionTheProject from "./sections/section-the-project";
 
 
 export const metadata = {
-    title: 'Ver aplicación',
-    description: 'Ver aplicación',
+    title: 'Work details',
+    description: 'Work details',
 }
 
 const WorkDetails = () => {

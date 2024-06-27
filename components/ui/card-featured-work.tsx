@@ -16,7 +16,11 @@ const CardFeaturedWork = ({
 }: CardFeaturedWorProps) => {
     return (
         <Link href={href} className='group'>
+            <h3 className='text-xl text-white group-hover:text-primary transition-colors duration-300'>
+                {title}
+            </h3>
             <div className='relative w-full h-80 mb-5 overflow-hidden rounded-xl'>
+                
                 <Image 
                 src={image} 
                 alt='Image' 
@@ -28,9 +32,6 @@ const CardFeaturedWork = ({
             <h5 className='text-gray-500 uppercase tracking-widest font-medium'>
                 {category}
                 </h5>
-            <h3 className='text-xl text-white group-hover:text-primary transition-colors duration-300'>
-                {title}
-                </h3>
         </Link>
     )
 }

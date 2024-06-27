@@ -4,6 +4,7 @@ import { RiMenu2Line } from "react-icons/ri";
 
 import Sidebar from "@/components/shared/sidebar";
 import ButtonIcon from "@/components/ui/button-icon";
+import Footer from "@/components/shared/footer";
 
 const MainLayout = ({children} : {children: ReactNode }) => {
 
@@ -18,6 +19,7 @@ const MainLayout = ({children} : {children: ReactNode }) => {
             className='lg:hidden fixed right-0 bottom-0 z-30 bg-primary p-4 rounded-tl-lg' />
             
         {children}
+        <Footer />
         </div>
     );
 }

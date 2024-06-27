@@ -3,10 +3,10 @@ import Subtitle from "@/components/ui/subtitle";
 import  Image  from "next/image";
 
 const SectionMyRole = () => {
-    return (<section id='sectionHeader' className='border-b border-gray-500/30 py-10'>
+    return (<section id='sectionMyRole' className='border-b border-gray-500/30 py-10'>
         <Container>
-            <div className='flex flex-col sm:flex-row sm:items-start sm:justify-between'>
-            <Subtitle subtitle='My role' />
+            <div className='flex flex-col lg:flex-row lg:items-start lg:justify-between gap-5 mb-10'>
+            <Subtitle subtitle='My role' className='my-0'/>
             <ul className='space-y-8'>
                 <li className='max-w-3xl'>
                     <h4 className='text-xl text-white font-medium mb-2'>
@@ -35,7 +35,7 @@ const SectionMyRole = () => {
                     alt='Image'
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className='object-cover'
+                    className='object-cover rounded-xl'
                 />
             </div>
         </Container>

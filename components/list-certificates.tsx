@@ -1,7 +1,13 @@
+import { cn } from "@/libs/utils";
 import CardCertificates from "./ui/card-certificates";
 
-const ListCertificates = () => {
-    return (<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10'>
+interface ListCertificateProps {
+    className?: string;
+}
+
+const ListCertificates = ({ className } : ListCertificateProps) => {
+    return (
+        <div className={cn('grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10', className)}>
         <CardCertificates
             href='https://platzi.com/p/zotelsigel/curso/7992-github-actions/diploma/detalle/'
             image='/curso-github-actions.png'

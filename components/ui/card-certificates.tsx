@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import Badge from "./badge";
 
 interface CardCertificatesProps {
     href: string;
@@ -9,10 +11,12 @@ interface CardCertificatesProps {
 
 const CardCertificates = ({href, image, title, description} : CardCertificatesProps) => {
     return (
-        <a href={href}
-        target='_blank'
+        <Link href={href}
+        //target="_blank"
         className='block group'>
-            <div className='relative w-20 h-20 rounded-xl mb-5 overflow-hidden'>
+            <h3 className='text-white text-2xl mb-2 group-hover:text-primary transition-colors duration-300'>
+                {title}</h3>
+            <div className='relative w-20 h-20 rounded-xl mb-5'>
                 <Image
                 src={image}
                 alt='Image'
@@ -21,10 +25,8 @@ const CardCertificates = ({href, image, title, description} : CardCertificatesPr
                 className='object-cover rounded-xl group-hover:scale-110 transition-all duration-300'
                 />
             </div>
-            <h3 className='text-white text-2xl mb-2 group-hover:text-primary transition-colors duration-300'>
-                {title}</h3>
-            <p className='text-gray-500'>{description}</p>
-        </a>
+            <Badge label={description}/>
+        </Link>
     )
 }
 

@@ -9,7 +9,7 @@ interface ButtonIconProps{
 
 const ButtonIcon = ({icon: Icon, className, onClick } : ButtonIconProps) => {
     return (
-    <button type='button' className={cn('lg:hidden', className)} onClick={onClick} >
+    <button type='button' className={cn('', className)} onClick={onClick} >
         <Icon  size={20} />
     </button>)
 };
