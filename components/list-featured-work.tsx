@@ -13,7 +13,7 @@ const ListFeaturedWork = () => {
             category='Single Page'
             title='Club de empanadas' />
         <CardFeaturedWork
-            href='/proyectos/detalles'
+            href='/work/details'
             image='/conversor-java.png'
             category='API Rest Full'
             title='Conversor de monedas'
