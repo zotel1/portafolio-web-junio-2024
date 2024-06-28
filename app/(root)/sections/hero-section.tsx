@@ -20,12 +20,17 @@ export const HeroSection = () => {
                 </div>
                 <div className="max-w-3xl">
                     <h1 className="text-4xl  text-white mb-5">
-                        {`Hey, me llamo Cristian - Soy un desarrollador web en Full Stack`}
+                        {`Buuuenas, me llamo Cristian`}
                     </h1>
+                        <h1 className="text-4xl  text-white mb-5">
+                            {`Soy un desarrollador web en Full Stack `}
+                        </h1>
                     <p className="text-gray-500">
                         Back-end: Java-Spring boot | Java Script/TypeScript: NodeJS | Python: Flask
-                        
                     </p>
+                        <p className="text-gray-500">
+                            Front-end: ReactJS | NextJS
+                        </p>
                 </div>
                 <div className='flex items-center gap-4'>
                     {Information.socialMedia.map((social) => (

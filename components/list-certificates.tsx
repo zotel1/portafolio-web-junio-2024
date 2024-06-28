@@ -17,7 +17,7 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             href='https://app.aluracursos.com/certificate/1d6b2ec9-9f5d-414c-b55b-da840025fcc5?lang'
             image='/PERSISTENCIA-DE-DATOS-SPRING.png'
             description='Curso de Java, persistencia de datos con Spring Boot de Oracle Next Education- Alura Latam. '
-            title='Java-Spring' />
+            title='Java: persistencia de datos y consultas con Spring Data JPA' />
         <CardCertificates
             href='https://app.aluracursos.com/certificate/003d1f75-190e-4229-97b8-29addab2e74c?lang'
             image='/java-lambdas.png'

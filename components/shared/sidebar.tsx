@@ -27,7 +27,7 @@ const Sidebar = ({ showMenu, onClose } : SidebarProps) => {
             >
                 Cristian Sigel
                 </Link>
-            <h3 className="text-gray-500 font-light">Web development</h3>
+                    <h3 className="text-gray-500 font-light">Web development 🇦🇷</h3>
         </section>
         <section>
             <MainMenu />
