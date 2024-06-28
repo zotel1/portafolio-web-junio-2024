@@ -14,30 +14,30 @@ const MainMenu = () => {
 
     const routes = [
         {
-            label: 'Home',
+            label: 'Menu',
             icon: RiHome3Line,
             href: '/',
         },
         {
-            label: 'Works',
+            label: 'Proyectos',
             icon: RiBriefcase2Line,
             href: '/work'
         },
         {
-            label: 'Study',
+            label: 'Estudios',
             icon: RiShapeLine,
             href: '/study'
         },
         {
-            label: 'About',
+            label: 'Sobre mí',
             icon: RiUserLine,
             href: '/about'
         },
-        {
-        label: 'Contact',
-        icon: RiMailLine,
-        href: '/contact'
-        }
+        //{
+       // label: 'Contact',
+        //icon: RiMailLine,
+       // href: '/contact'
+       // }
     ];
 
 const pathname = usePathname();
