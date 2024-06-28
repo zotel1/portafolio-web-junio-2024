@@ -19,7 +19,37 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             description='Curso de Java, persistencia de datos con Spring Boot de Oracle Next Education- Alura Latam. '
             title='Java-Spring' />
         <CardCertificates
-            href='https://app.aluracursos.com/certificate/2427492e-7282-47f8-b129-637e7b662b52?lang'
+            href='https://app.aluracursos.com/certificate/003d1f75-190e-4229-97b8-29addab2e74c?lang'
+            image='/java-lambdas.png'
+            description='En este curso aprendemos el uso de lambdas, streams y Spring Framework de Oracle Next Education- Alura Latam. '
+            title='Java: trabajando con lambdas, streams y Spring Framework' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/cae00599-f404-4471-84d9-36bc7d4dc01f?lang'
+            image='/java-poo.png'
+            description='En este curso aplicamos la Orientación a Objetos en el lenguaje de Java de Oracle Next Education- Alura Latam. '
+            title='Java: aplicando la Orientación a Objetos' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/9a23b70d-da36-491f-b86f-712a9708d614?lang'
+            image='/java-consumir-api.png'
+            description='En este curso aprendemos consumir API, escribir archivos y manejar errores en el lenguaje de Java de Oracle Next Education- Alura Latam. '
+            title='Java: consumir API, escribir archivos y manejar errores' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/9d57f782-95a4-4629-9fab-47ab527aca2e?lang'
+            image='/java-creando-tu-primer-aplicacion.png'
+            description='En este curso creamos nuestra primera aplicación en Java de Oracle Next Education- Alura Latam. '
+            title='Java: creando tu primera aplicación' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/5f7b44ba-fd0f-4735-95c2-65529896e142?lang'
+            image='/java-trabajar-con-listas.png'                
+            description='En este curso trabajar con listas y colecciones de datos con el lenguaje de Java de Oracle Next Education- Alura Latam. '
+            title='Java: Trabajar con listas y colecciones de datos' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/37062b07-f41c-4a86-9920-03958bb70a2e?lang'
+            image='/java-challenge-conversor.png'
+            description='En este curso consumimos una API y creamos un codigo en Java que compara valores de distintas monedas extranjeras de Oracle Next Education- Alura Latam. '
+            title='Java: Challenge conversor de monedas' />
+        <CardCertificates
+            href='https://app.aluracursos.com/certificate/5f7b44ba-fd0f-4735-95c2-65529896e142?lang'
             image='/git-github.png'
             description="Curso de Git y GitHub."
             title='Git-GitHub' />
@@ -31,7 +61,7 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
         <CardCertificates
             href='https://app.aluracursos.com/certificate/7080e0c9-41a4-42ba-8647-5173627e9f44'
             image='/alura-logica-programacion-js.png'
-            description='Curso de Java, persistencia de datos con Spring Boot de Oracle Next Education- Alura Latam. '
+            description='Curso de Java, dando los primeros pasos y aprendiendo fundamentos con Java Script- Alura Latam. '
             title='Lógica de programación: sumérgete en la programación con JavaScript' />
         
         <CardCertificates
