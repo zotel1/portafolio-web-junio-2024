@@ -23,7 +23,8 @@ export const HeroSection = () => {
                         {`Hey, me llamo Cristian - Soy un desarrollador web en Full Stack`}
                     </h1>
                     <p className="text-gray-500">
-                        Back-end: Java-Spring boot | Java Script/TypeScript: NodeJS | 
+                        Back-end: Java-Spring boot | Java Script/TypeScript: NodeJS | Python: Flask
+                        
                     </p>
                 </div>
                 <div className='flex items-center gap-4'>
