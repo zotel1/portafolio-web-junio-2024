@@ -15,22 +15,24 @@ const router = useRouter();
             <Container>
                 <Title title="Certificados"/>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10'>
-                    <CardCertificates 
-                    href='https://platzi.com/p/zotelsigel/curso/7992-github-actions/diploma/detalle/' 
-                    image='/curso-github-actions.png' 
-                        title='GITHUB ACTIONS' description='Curso de github actions de la plataforma de Platzi'/>
-                </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                    <CardCertificates
-                        href='https://app.aluracursos.com/certificate/1d6b2ec9-9f5d-414c-b55b-da840025fcc5?lang'
-                        image='/PERSISTENCIA-DE-DATOS-SPRING.png'
-                        title='JAVA' description='PERSISTENCIA DE DATOS Y CONSULTAS CON SPRING DATA JPA' />
-                </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                     <CardCertificates
                         href='https://www.itmaster.app/certificates?id=ITMAP402023OJBKPZSLWPIBASQ'
                         image='/programacion-orientada-a-objetos-python.png'
-                        title='PYTHON POO' description='Curso de programación orientada a objetos con Python' />
+                        description='Curso de programacion orientada a objetos con Python de IT Master Academy, en el marco de Argentina Programa 4.0.'
+                        title='Programación orientada a objetos con Python' />
+                </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                    <CardCertificates
+                        href='https://platzi.com/p/zotelsigel/curso/2878-typescript/diploma/detalle/'
+                        image='/fundamentos-de-typescript.png'
+                        description="Curso de fundamentos de TypeScript, en Platzi"
+                        title='Curso de fundamentos de TypeScript' /></div>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                    <CardCertificates
+                        href='https://app.aluracursos.com/certificate/003d1f75-190e-4229-97b8-29addab2e74c?lang'
+                        image='/java-lambdas.png'
+                        description='En este curso aprendemos el uso de lambdas, streams y Spring Framework de Oracle Next Education- Alura Latam. '
+                        title='Java: trabajando con lambdas, streams y Spring Framework' />
                 </div>
                 <Button label='Ver todos los certicicados' onClick={() => router.push('/study')} />
             </Container>

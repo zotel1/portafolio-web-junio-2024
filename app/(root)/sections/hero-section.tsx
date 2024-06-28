@@ -18,13 +18,12 @@ export const HeroSection = () => {
                         className="object-cover rounded-xl grayscale"
                     />
                 </div>
-
                 <div className="max-w-3xl">
                     <h1 className="text-4xl  text-white mb-5">
-                        {`Hey, me llamo Cristian - Soy un desarrollador web en formación`}
+                        {`Hey, me llamo Cristian - Soy un desarrollador web en Full Stack`}
                     </h1>
                     <p className="text-gray-500">
-                        Desarrollador web desde hace un año y medio
+                        Back-end: Java-Spring boot | Java Script/TypeScript: NodeJS | 
                     </p>
                 </div>
                 <div className='flex items-center gap-4'>

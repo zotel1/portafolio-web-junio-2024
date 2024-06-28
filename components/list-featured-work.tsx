@@ -8,8 +8,8 @@ const ListFeaturedWork = () => {
             category='Landing Page'
             title='Landing Page Digital Nao' />
         <CardFeaturedWork
-            href='https://peppy-alpaca-377053.netlify.app/'
-            image='/club-empanadas.png'
+            href='https://peppy-alpaca-377053.netlify.app/templates/menu'
+            image='/empanada-martina.jpeg'
             category='Single Page'
             title='Club de empanadas' />
         <CardFeaturedWork
