@@ -60,7 +60,7 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             title='Lógica de programación: explorar funciones y listas' />
         <CardCertificates
             href='https://app.aluracursos.com/certificate/7080e0c9-41a4-42ba-8647-5173627e9f44'
-            image='/alura-logica-programacion.png'
+            image='/alura-logica-programacion-javascript.png'
             description='Curso de Java, dando los primeros pasos y aprendiendo fundamentos con Java Script- Alura Latam. '
             title='Lógica de programación: sumérgete en la programación con JavaScript' />
         
