@@ -15,7 +15,7 @@ export const HeroSection = () => {
                         alt='Imagen'
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                        className="object-cover rounded-xl grayscale"
+                            className="object-cover rounded-xl grayscale"
                     />
                 </div>
                 <div className="max-w-3xl">

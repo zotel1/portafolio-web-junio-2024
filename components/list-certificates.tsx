@@ -55,13 +55,13 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             title='Git-GitHub' />
         <CardCertificates
             href='https://app.aluracursos.com/certificate/000df9cd-0f5f-4e2f-b07e-47cdab285e02'
-            image='/logica-de-programacion-js.png'
-                description='Curso de Java Script, explorar funciones y listas de Oracle Next Education- Alura Latam. '
+            image='/explorarfuncionesylistasjs.png'
+            description='Curso de Java Script, explorar funciones y listas de Oracle Next Education- Alura Latam. '
             title='Lógica de programación: explorar funciones y listas' />
         <CardCertificates
             href='https://app.aluracursos.com/certificate/7080e0c9-41a4-42ba-8647-5173627e9f44'
-            image='/alura-logica-programacion-javascript.png'
-            description='Curso de Java, dando los primeros pasos y aprendiendo fundamentos con Java Script- Alura Latam. '
+            image='/programacionjs.png'
+            description='Curso de Java script, dando los primeros pasos y aprendiendo fundamentos con Java Script- Alura Latam. '
             title='Lógica de programación: sumérgete en la programación con JavaScript' />
         
         <CardCertificates
