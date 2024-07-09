@@ -13,6 +13,11 @@ const ListFeaturedWork = () => {
             category='Single Page'
             title='Club de empanadas' />
         <CardFeaturedWork
+            href='https://zotel1.github.io/encriptador-challenge/'
+            image='/carpi-pc.png'
+            category='Challenge Alura-latam'
+            title='Encriptador depalabras' />
+        <CardFeaturedWork
             href='/work/details'
             image='/conversor-java.png'
             category='API Rest Full'
