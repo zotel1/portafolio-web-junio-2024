@@ -3,6 +3,11 @@ import CardFeaturedWork from "./ui/card-featured-work"
 const ListFeaturedWork = () => {
     return (<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mb-10'>
         <CardFeaturedWork
+            href='https://buscamates.vercel.app/'
+            image='/capibaramate.png'
+            category='Aplicación escrita en React-vite'
+            title='Busca Mates 🧉' />
+        <CardFeaturedWork
             href='https://zotel1.github.io/landing-page-v1.1/'
             image='/landing-page.jpeg'
             category='Landing Page'
