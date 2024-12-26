@@ -18,6 +18,12 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
                 es el encargado de coordinar el desarrollo de ambas y cuenta con la capacidad de crear proyectos de principio a fin.'
             title='Full Stack Developer Core' />
 
+<CardCertificates
+            href='#'
+            image='/no-country.jpg'
+                description='Certificado por haber participado en la simulación laboral como desarrollador web backend con Java en NoCountry.'
+            title='Desarrollador Web Backend con Java' />
+
         <CardCertificates
             href='https://platzi.com/p/zotelsigel/curso/7992-github-actions/diploma/detalle/'
             image='/curso-github-actions.png'
