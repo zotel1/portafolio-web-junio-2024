@@ -8,6 +8,16 @@ interface ListCertificateProps {
 const ListCertificates = ({ className } : ListCertificateProps) => {
     return (
         <div className={cn('grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10', className)}>
+
+<CardCertificates
+            href='https://www.credly.com/badges/52cbf611-4513-4a5a-b534-b7addea36ea7/'
+            image='/digital-nao.png'
+                description='Profesional con habilidades de desarrollo web interdisciplinarias, 
+                desarrollando en Front End (interfaces y sistemas de cara al usuario), 
+                como de Back End (lógica, servidores, y bases de datos), 
+                es el encargado de coordinar el desarrollo de ambas y cuenta con la capacidad de crear proyectos de principio a fin.'
+            title='Full Stack Developer Core' />
+
         <CardCertificates
             href='https://platzi.com/p/zotelsigel/curso/7992-github-actions/diploma/detalle/'
             image='/curso-github-actions.png'
@@ -94,6 +104,8 @@ const ListCertificates = ({ className } : ListCertificateProps) => {
             image='/programacion-web-backend.png'
                 description='Curso de Programación web Backend , en la Universidad Nacional Tres de Febrero, en el marco de Argentina Programa 4.0'
             title='Programación web Backend' />
+
+
 
 
     </div>
