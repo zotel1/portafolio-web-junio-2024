@@ -7,6 +7,11 @@ const ListFeaturedWork = () => {
             image='/capibaramate.png'
             category='Aplicación escrita en React-vite'
             title='Busca Mates 🧉' />
+            <CardFeaturedWork
+            href='https://forbtech-front.vercel.app/login/'
+            image='/country-plants.jpg'
+            category='Aplicación web escrita en Angular para un challenge'
+            title='Country Plants 🌱' />
         <CardFeaturedWork
             href='https://zotel1.github.io/landing-page-v1.1/'
             image='/landing-page.jpeg'
